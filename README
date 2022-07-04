@@ -1,0 +1,10 @@
+This script uses LibreOffice to convert individual files to pdf in a temporary folder.
+These files are then concatenated using the pdfrw module.
+It is possible to specify that the number of pages from each document should be even,
+so that double-sided printing works properly.
+
+For (fairly) comfortable user interaction, there is a simple gui using tkinter.
+
+LibreOffice must be installed in its standard location on Windows, otherwise (Linux)
+accessible via the "libreoffice" command.
+
